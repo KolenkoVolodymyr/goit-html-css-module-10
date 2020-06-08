@@ -9,40 +9,40 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="navigation header-navigation">
+      <div class="header__container container">
+        <nav class="header__navigation navigation">
           <p class="logo">MoGo</p>
-          <div class="wrapper">
+          <div class="menu__wrapper">
             <ul class="menu-list">
               <li class="menu-list__item">
-                <a href="#" class="menu-list__item-link">About</a>
+                <a href="#" class="menu-list__link">About</a>
               </li>
               <li class="menu-list__item">
-                <a href="#" class="menu-list__item-link">Service</a>
+                <a href="#" class="menu-list__link">Service</a>
               </li>
               <li class="menu-list__item">
-                <a href="#" class="menu-list__item-link">Work</a>
+                <a href="#" class="menu-list__link">Work</a>
               </li>
               <li class="menu-list__item">
-                <a href="#" class="menu-list__item-link">Blog</a>
+                <a href="#" class="menu-list__link">Blog</a>
               </li>
               <li class="menu-list__item">
-                <a href="#" class="menu-list__item-link">Contact</a>
+                <a href="#" class="menu-list__link">Contact</a>
               </li>
             </ul>
-            <ul class="actions-list">
+            <ul class="menu-list__actions-list actions-list">
               <li class="actions-list__item">
                 <a class="actions-list__link" href="#">
-                  <svg class="actions-list__svg actions-list__cart-svg">
-                    <title>icon cart</title>
+                  <svg class="actions-list__svg actions-list__svg--cart">
                     <use href="images/menu/actions-sprite.svg#icon-cart"></use>
                   </svg>
                 </a>
               </li>
               <li class="actions-list__item">
-                <button class="actions-list__button">
-                  <svg class="actions-list__svg actions-list__button-svg">
-                    <title>icon glass</title>
+                <button
+                  class="actions-list__button actions-list__button--glass button"
+                >
+                  <svg class="actions-list__svg actions-list__svg--button">
                     <use href="images/menu/actions-sprite.svg#icon-glass"></use>
                   </svg>
                 </button>
@@ -50,76 +50,75 @@
             </ul>
           </div>
         </nav>
-        <h2 class="section-title header-title">
-          <span class="section-title__span header-title__span"
+        <h2 class="header__title section-title">
+          <span class="header__title--span section-title__span"
             >Creative Template</span
           >
           Welcome to MoGo
         </h2>
-        <button class="modal-btn">Learn more</button>
+        <button class="header__button--modal-btn button">Learn more</button>
       </div>
     </header>
     <main>
       <section class="service container">
-        <h2 class="section-title service-header">
-          <span class="section-title__span service-header__span"
+        <h2 class="service__header section-title">
+          <span class="service__header--span section-title__span"
             >We work with</span
           >
           Amazing Services
         </h2>
-        <ul class="service-list">
-          <li class="service-list__item service-list__service-photo">
-            <h3 class="service-list__item-header">Photography</h3>
-            <p class="service-list__item-text">
+        <ul class="service__list">
+          <li class="service__item service__item--photo">
+            <h3 class="service__list--header">Photography</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li class="service-list__item service-list__service-design">
-            <h3 class="service-list__item-header">Web Design</h3>
-            <p class="service-list__item-text">
+          <li class="service__item service__item--design">
+            <h3 class="service__list--header">Web Design</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li class="service-list__item service-list__service-creativ">
-            <h3 class="service-list__item-header">Creativity</h3>
-            <p class="service-list__item-text">
+          <li class="service__item service__item--creativ">
+            <h3 class="service__list--header">Creativity</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li class="service-list__item service-list__service-seo">
-            <h3 class="service-list__item-header">Seo</h3>
-            <p class="service-list__item-text">
+          <li class="service__item service__item--seo">
+            <h3 class="service__list--header">Seo</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li class="service-list__item service-list__service-css-html">
-            <h3 class="service-list__item-header">Css/Html</h3>
-            <p class="service-list__item-text">
+          <li class="service__item service__item--css-html">
+            <h3 class="service__list--header">Css/Html</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li class="service-list__item service-list__service-digital">
-            <h3 class="service-list__item-header">Digital</h3>
-            <p class="service-list__item-text">
+          <li class="service__item service__item--digital">
+            <h3 class="service__list--header">Digital</h3>
+            <p class="service__list--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
         </ul>
       </section>
-      <!-- SECTION -->
       <section class="team container">
-        <h2 class="section-title team-header">
-          <span class="section-title__span team-header__span">Who we are</span>
+        <h2 class="team__header section-title">
+          <span class="team__header--span section-title__span">Who we are</span>
           Meet our team
         </h2>
-        <div class="team-header-text-wrapper">
-          <p class="team-header-text">
+        <div class="team__header--text-wrapper">
+          <p class="team__header--text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -144,7 +143,9 @@
               <ul class="social-icons__list">
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__facebook social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--facebook"
+                    >
                       <title>icon facebook</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-facebook"
@@ -154,7 +155,7 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__twitter social-icons__icon">
+                    <svg class="social-icons__icon social-icons__icon--twitter">
                       <title>icon twitter</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-twitter"
@@ -164,7 +165,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__pinterest social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--pinterest"
+                    >
                       <title>icon pinterest</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-pinterest"
@@ -174,7 +177,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__instagram social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--instagram"
+                    >
                       <title>icon instagram</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-instagram"
@@ -184,8 +189,8 @@
                 </li>
               </ul>
             </div>
-            <p class="team-member">Matthew Dix</p>
-            <p class="team-member-position">Graphic Design</p>
+            <p class="team-list__description--member">Matthew Dix</p>
+            <p class="team-list__description--position">Graphic Design</p>
           </li>
 
           <li class="team-list__item">
@@ -205,7 +210,9 @@
               <ul class="social-icons__list">
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__facebook social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--facebook"
+                    >
                       <title>icon facebook</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-facebook"
@@ -215,7 +222,7 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__twitter social-icons__icon">
+                    <svg class="social-icons__icon social-icons__icon--twitter">
                       <title>icon twitter</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-twitter"
@@ -225,7 +232,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__pinterest social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--pinterest"
+                    >
                       <title>icon pinterest</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-pinterest"
@@ -235,7 +244,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__instagram social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--instagram"
+                    >
                       <title>icon instagram</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-instagram"
@@ -245,8 +256,8 @@
                 </li>
               </ul>
             </div>
-            <p class="team-member">Christopher Campbell</p>
-            <p class="team-member-position">Branding/UX design</p>
+            <p class="team-list__description--member">Christopher Campbell</p>
+            <p class="team-list__description--position">Branding/UX design</p>
           </li>
           <li class="team-list__item">
             <div class="team-list__under-photo"></div>
@@ -265,7 +276,9 @@
               <ul class="social-icons__list">
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__facebook social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--facebook"
+                    >
                       <title>icon facebook</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-facebook"
@@ -275,7 +288,7 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__twitter social-icons__icon">
+                    <svg class="social-icons__icon social-icons__icon--twitter">
                       <title>icon twitter</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-twitter"
@@ -285,7 +298,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__pinterest social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--pinterest"
+                    >
                       <title>icon pinterest</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-pinterest"
@@ -295,7 +310,9 @@
                 </li>
                 <li class="social-icons__item">
                   <a href="#" class="social-icons__link">
-                    <svg class="social-icons__instagram social-icons__icon">
+                    <svg
+                      class="social-icons__icon social-icons__icon--instagram"
+                    >
                       <title>icon instagram</title>
                       <use
                         href="./images/team/social-icons/social-icons-sprite.svg#icon-instagram"
@@ -305,26 +322,28 @@
                 </li>
               </ul>
             </div>
-            <p class="team-member">Michael Fertig</p>
-            <p class="team-member-position">Developer</p>
+            <p class="team-list__description--member">Michael Fertig</p>
+            <p class="team-list__description--position">Developer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <div class="footer-wrapper container">
-        <div class="about-site-wrapper">
-          <p class="about-site">© 2016 MoGo free PSD template by</p>
-          <a href="#" class="footer-link">Laaqiq</a>
+      <div class="footer__wrapper container">
+        <div class="footer__description-wrapper">
+          <p class="footer__description">© 2016 MoGo free PSD template by</p>
+          <a href="#" class="footer__link">Laaqiq</a>
         </div>
-        <div class="form-wrapper">
-          <form action="#" class="contact-form">
+        <div class="footer__form-wrapper">
+          <form action="#" class="footer__form form">
             <input
               type="email"
-              class="contact-form__input"
+              class="form__input"
               placeholder="Your email..."
             />
-            <button type="submit" class="contact-form__btn">Subscribe</button>
+            <button type="submit" class="form__btn button">
+              Subscribe
+            </button>
           </form>
         </div>
       </div>
