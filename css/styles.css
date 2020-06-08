@@ -196,7 +196,7 @@ img {
   border-bottom-color: #fce38a;
 }
 
-.menu__wrapper {
+.menu-list__wrapper {
   width: 620px;
   display: -webkit-box;
   display: -ms-flexbox;
